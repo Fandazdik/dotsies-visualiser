@@ -52,16 +52,6 @@ def to_list(letter):
     
     return list(binary)
 
-# def show(letter):
-#     final_list = []
-#     list_to_print = to_list(letter)
-#     for item in list_to_print:
-#         if item == 0:
-#             print('-')
-#         if item == 1:
-#             print('#')
-
-string = 'test'
 def string_to_array(string, char_tup = ('░░', '██')):
     array_to_display = []
     disp_string = ''
@@ -81,22 +71,3 @@ def string_to_array(string, char_tup = ('░░', '██')):
                 disp_string += char_tup[1]
         disp_string += '\n'
     return disp_string
-
-# length = 1
-# while 1:
-#     letter_type = 1
-#     #REPLACE LETTER TYPE BELOW
-#     possible_letters = patterns[0] + patterns[1]
-#     chosen_letters = ''
-#     for i in range(math.floor(length)):
-#         chosen_letters += random.choice(possible_letters)
-#     #print(chosen_letter)
-#     print(string_to_array(chosen_letters, ('░░', '██')))
-#     guess = input('> ')
-#     print()
-#     if guess.lower() == chosen_letters:
-#         print('Correct')
-#         length += 0.05
-#     else:
-#         print(f'Incorrect, answer was {chosen_letters}')
-    
