@@ -2,7 +2,8 @@
 Little function to display the conlang dotsies in the python console
 https://dotsies.org/
 
-###`string_to_array(string, char_tup = ('░░', '██'))`
+### `string_to_array(string, char_tup = ('░░', '██'))`
+
 Will take the input string and return a printable version of the dotsies version
 *(can only accept alphabetic characters)*
 \n
